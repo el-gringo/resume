@@ -1,0 +1,99 @@
+
+@page {
+  size: A4 portrait;
+  size: auto;
+  margin: 1cm 1.6cm;
+}
+
+html, body {
+  height: auto;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 1cm 1.6cm;
+}
+
+#top nav,
+#personal-profile .presentation,
+#personal-profile h1 {
+  display: none;
+}
+
+a[href] {
+  text-decoration: underline;
+}
+
+a[href]:after {
+  content: '';
+}
+
+section {
+  page-break-after: always;
+  margin: 0cm 0cm 1cm;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+#personal-profile .printable {
+  position: absolute;
+  top: 0cm;
+  left: 10cm;
+}
+
+
+#personal-profile .printable h1 {
+  color: #555 !important;
+}
+
+
+#personal-profile .printable h2 {
+  color: #666 !important;
+}
+
+.printable,
+.printable * {
+  display: block !important;
+}
+
+
+
+#personal-details li:first-child {
+  display: none;
+}
+
+#personal-details li {
+  border-bottom: 1pt dotted #aaa;
+  margin-top: 1pt;
+  line-height: 30px;
+}
+
+section .row .description {
+  border-left: 1pt dotted #666 !important;
+  margin-left: 1pt;
+}
+
+#personal-profile,
+#personal-details {
+  position: absolute;
+  top: -0.5cm;
+  left: -1cm;
+}
+
+section#experience h1 {
+  display: none;
+}
+
+section#experience .row {
+  margin-bottom: 0.5cm;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+section#experience {
+  padding-top: 160px;
+}
+
+section h1 {
+  margin-bottom: 1cm;
+}

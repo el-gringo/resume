@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Développeur full-stack</title>
+    <!--
+    <link rel="stylesheet" href="assets/bootstrap.css">
+    <link rel="stylesheet" href="assets/cv.css">
+    <link rel="stylesheet" href="assets/printable.css" media="print">
+    <script src="assets/jquery-2.js"></script>
+    <script src="assets/jquery.js"></script>
+    <script src="assets/qrcode.js"></script>
+    <script src="assets/cv.js"></script>
+
+    <link rel="stylesheet" href="assets/bootstrap.css">
+  -->
+    
+
+    <link rel="stylesheet" href="assets/cv.css">
+    <link rel="stylesheet" href="assets/printable.css" media="print">
+    
+  </head>
+  <body>
+
+    <header id="top">
+      <nav id="main-nav" class="navbar navbar-fixed-top">
+        <ul class="nav  nav-justified">
+          <li>
+            <a href="#personal-profile" class="active">
+              Profil
+            </a>
+          </li>
+          <li>
+            <a href="#experience" class="">Expérience</a>
+          </li>
+          <li>
+            <a href="#education" class="">Éducation</a>
+          </li>
+          <li>
+            <a href="#knowledge" class="">Connaissances</a>
+          </li>
+          <!--li>
+            <a href="#more">Plus</a>
+          </li-->
+
+          <li class="pdf">
+            <a id="link-resume" href="resume-christophe_bosse.pdf">
+              <img src="assets/pdficon_small.png" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="content">
+      <section id="personal-profile">
+        <div class="card">
+          <h1>Qui suis je ?</h1>
+          <div class="printable">
+            <h1>Christophe BOSSE</h1>
+            <h2>Developpeur full-stack</h2>
+          </div>
+          <aside>
+            <div id="personal-details">
+              <li>
+                <label>Nom</label>
+                <div>BOSSE Christophe</div>
+              </li>
+              <li>
+                <label>Age</label>
+                <div>37 ans</div>
+              </li>
+              <li>
+                <label>Adresse</label>
+                <div>
+					27 avenue Romain Rolland<br>
+					93150 Blanc Mesnil, France
+                </div>
+
+              </li>
+              <li>
+                <label>Email</label>
+                <div>christophe.bosse@gmail.com</div>
+              </li>
+              <li>
+                <label>Téléphone</label>
+                <div>(33) 06 20 35 54 42</div>
+              </li>
+            </div>
+          </aside>
+
+          <div class="presentation">
+  Passionné des nouvelles technologies et des arts numériques, je travaille avec différents <strong>constructeurs de TV connectées</strong>
+ pour fournir un portail multimédia personnalisé aux hôtels. Je suis 
+amené à rencontrer beaucoup de défis, ayant souvent avoir à faire a des <strong>techniques reverse-engineering</strong>. Faisant régulièrement des voyages (personnels et professionnels), je suis <strong>à l'aise en anglais</strong>.
+          </div>
+        </div>
+      </section>
+
+      <section id="experience">
+        <div class="card">
+          <h1>Expérience</h1>
+          <div class="container-fluid">
+            <div class="row" style="page-break-after: avoid;">
+              <aside class="timeline">
+                <span class="from">
+                  <small>Septembre</small>
+                  2018
+                </span>
+                -
+                <span class="until">
+                  <small>Mars</small>
+                  2019
+                </span>
+              </aside>
+              <div class="description">
+                <h3>
+                  Skwirrel
+                  <small>Analyse énergétique</small>
+                </h3>
+                <div class="content">
+                  <div class="content">
+                    <h4>
+                      Développeur Sénior
+                    </h4>
+                    <dl>
+                      <dt>Micro services</dt>
+                      <dd>Kurbernetes / kubectl / docker-compose</dd>
+                      <dd>Dicers scripts de Dev OPS</dd>
+
+                      <dt>Récupération de données de capteurs IOT</dt>
+                      <dd>Python 3.5</dd>
+                      <dd>Voltaware / Energo Monitor / Luko / EWattch / Enedis SGE / VM2M</dd>
+
+                      <dt>One page web apps</dt>
+                      <dd>React 16.8 / Express JS</dd>
+                      <dd>Angular 1.6 &amp; 5.x</dd>
+                      <dd>MongoDB / Postgres</dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <aside class="timeline">
+                <span class="from">
+                  <small>Octobre</small>
+                  2009
+                </span>
+                -
+                <span class="until">
+                  <small>Août</small>
+                  2018
+                </span>
+              </aside>
+              <div class="description">
+                <h3>
+                  Hoistgroup / Locatel
+                  <small>Services multimédia hôtellerie</small>
+                </h3>
+                <div class="content">
+                  <div class="content">
+                    <h4>
+                      Développeur full-stack R&amp;D
+                    </h4>
+                    <dl>
+                      <dt>Proxy Chromecast / Dial</dt>
+                      <dd>Python - Twisted, Bottle, ZeroConf, MDNS, SSDP</dd>
+                      <dd>Reverse ingeneering des protocoles Chromecast &amp; Dial</dd>
+                      <dd>Serveur API REST</dd>
+
+                      <dt>Portail WEB pour TV connectées</dt>
+                      <dd>PHP / HTML / Javascript</dd>
+                      <dd>Démo: http://july.ectcloud.net/</dd>
+                      <dd>Application full AJAX</dd>
+                      <dd>Drivers TV: Samsung, LG, Philips</dd>
+                      <dd>Génération &amp; Modulation de chaînes DVB-C/T</dd>
+                      <dd>Connection PMS hotelerie</dd>
+
+                      <dt>iPad applications</dt>
+                      <dd>Xcode / Objective-C</dd>
+                      <dd>Domotique: Controle du chauffage / éclairage (Cheval Blanc),
+  Climatisation (Emirates Palace, Dubaï)</dd>
+                      <dd>Contrôles de la télévision</dd>
+                      <dd>Commandes / Services depuis la chambre</dd>
+                      <dd>Informations Hôtel</dd>
+
+                      <dt>STB</dt>
+                      <dd>Proxy Websocket &lt;&gt; TCP</dd>
+                      <dd>IPTables forwarding</dd>
+
+                      <dt>Responsable de la livraison des films en VOD / PayTV</dt>
+                      <dd>Ruby on Rails</dd>
+                      <dd>Scripts BASH / rsync</dd>
+                      <dd>Outils de gestion des films</dd>
+                      <dd>Livraison des films</dd>
+                      <dd>Gestion des contrats films</dd>
+                      <dd>Liaison avec BDD commerciale (MS SQL Server)</dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <aside class="timeline">
+                <span class="from">
+                  <small>Janvier</small>
+                  2008
+                </span>
+                -
+                <span class="until">
+                  <small>Septembre</small>
+                  2009
+                </span>
+              </aside>
+              <div class="description">
+                <h3>Freelance</h3>
+                <div class="content">
+                  <h4>
+
+                  </h4>
+                  <dl>
+                    <dt>Diverses missions auprès de l'agence numérique Cominweb</dt>
+                    <dd><a href="http://www.cominweb.com/">http://www.cominweb.com/</a></dd>
+                    <dd>Symphony: Dévelopement sur la plateforme de contenu vidéo: <a href="http://www.mediative.tv/">http://www.mediative.tv/</a></dd>
+
+                    <dt>Diverses missions auprès de l'agence de communication</dt>
+                    <dd><a href="http://www.com2me.fr/">http://www.com2me.fr/</a></dd>
+                    <dd>Travaux sur des boutiques en ligne sous Joomla!</dd>
+
+                    <dt>Mise à jours de la boutique lingerie Valege</dt>
+                    <dd><a href="http://valege.com/">http://valege.com/</a></dd>
+                    <dd>PHP / MySQL</dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <aside class="timeline">
+                <span class="from">
+                  <small>Avril</small>
+                  2005
+                </span>
+                -
+                <span class="until">
+                  <small>Janvier</small>
+                  2008
+                </span>
+              </aside>
+              <div class="description">
+                <h3>
+                  Ingeniweb / Alterway
+                  <small>Société de services en ingénierie informatique</small>
+                </h3>
+                <div class="content">
+                  <h4>
+                    Développeur / Intégrateur Web
+                  </h4>
+                  <dl>
+                    <dt>Mission en régis à Eurocontrol (10 mois)</dt>
+                    <dd>Site Plone avec un système de GED:
+  Workflow complexe suivant la méthode d'organisation
+  RACI (Réalisation, Approbation, Consultation, Information)
+  Staging (Versioning) des documents
+  Système de revue des documents (Commentaires / Application de correctifs)
+                    </dd>
+
+                    <dt>Mission en forfait pour CAI (Cosmétique Active de L'Oréal)</dt>
+                    <dd>Système de concours photos pour CAI avec le framework Zope (Galerie, upload de photos, votes)
+  Migration de l'intranet CAI (L'Oréal) site de Plone 2.0 à Plone 2.5
+  Développement de l'intranet DPL (L'Oréal)
+  Système de panier et de commandes
+  Migration de données et média depuis un SQL Server en contenus Plone (20 000 contenus)
+                    </dd>
+
+                    <dt>Intégration intranet avec un système de boîtes pour Décathlon et Eurocontrol</dt>
+                    <dd>Ajout, modification, suppression de boîtes en AJAX (Façon Netvibes)
+  Placement des boîtes par glisser / déposé
+  Plusieurs types de boîtes:
+      - Arborescence de fichiers avec glisser / déposer full AJAX
+      - Lecteur de flux RSS
+      - Texte riche avec WYSIWYG
+      - Collection de documents (Recherches pré-enregistrées)
+                    </dd>
+
+
+                    <dt>Templates dynamiques (ZPT)</dt>
+                    <dt>Divers skins:
+                    <a href="http://www.cochin.inserm.fr/">http://www.cochin.inserm.fr/</a>, <a href="http://www.episode3.aero/">http://www.episode3.aero/</a>,
+    skins intranet LeSaffre, Intergros</dt>
+                  </dl>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <aside class="timeline">
+                <span class="from">
+                  <small>Avril</small>
+                  2003
+                </span>
+                -
+                <span class="until">
+                  <small>Janvier</small>
+                  2005
+                </span>
+              </aside>
+              <div class="description">
+                <h3>Easynet
+                  <small>Fournisseur d'accès à Internet</small>
+                </h3>
+                <div class="content">
+                  <h4>Développeur Web</h4>
+                  <dl>
+                    <dt>Développement sur l'outil référentieldes équipement réseau</dt>
+                    <dd>ASP et JSP Struts / SQL Server</dd>
+
+                    <dt>
+                      Été 2004 : Développement d'un site commercial from scratch de vente en ligne (PHP / MySQL)
+                    </dt>
+                    <dd><a href="http://valege.com/">http://valege.com/</a></dd>
+
+                    <dt>
+                      Création d'outils intranet pour la gestion de VPN, Clients, tickets d'incidents en (ASP / SQL Server)
+                    </dt>
+
+                    <dt>
+                      Application Web complète pour la gestion du personnel et du planning
+                    </dt>
+                  </dl>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education">
+        <div class="card">
+          <h1>Éducation</h1>
+          <div class="container-fluid">
+            <div class="row">
+              <aside class="timeline">
+                <span class="from">
+                  <small>Septembre</small>
+                  2003
+                </span>
+                -
+                <span class="from">
+                  <small>Juin</small>
+                  2006
+                </span>
+              </aside>
+              <div class="description">
+                <h3>École d’ingénieur en informatique en alternance à l’INSIA (Maintenant Ingésup)</h3>
+                <div class="content">
+  Dominante : Génie logiciel
+  C, C++, C#, Java, Shell UNIX
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <aside class="timeline">
+                <span class="from">
+                  <small>Septembre</small>
+                  2001
+                </span>
+                -
+                <span class="until">
+                  <small>Juin</small>
+                  2003
+                </span>
+              </aside>
+              <div class="description">
+                <h3>BTS Informatique de Gestion</h3>
+                <div class="content">
+  En alternance option Développeur d'application
+  C, Java, Windows NT Server 4
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <aside class="timeline">
+                <span class="from">
+                  <small>Septembre</small>
+                  1999
+                </span>
+                -
+                <span class="until">
+                  <small>Juin</small>
+                  2001
+                </span>
+              </aside>
+              <div class="description">
+                <h3>BAC Professionnel de Maintenance de Réseaux Bureautiques et Télématiques</h3>
+                <div class="content">
+  Netware, Windows NT Server 4
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <aside class="timeline">
+                <span class="from">
+                  <small>Septembre</small>
+                  1997
+                </span>
+                -
+                <span class="until">
+                  <small>Juin</small>
+                  1999
+                </span>
+              </aside>
+              <div class="description">
+                <h3>BEP Électronique</h3>
+                <div class="content">
+                  &nbsp;
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row qr-code-container">
+            <div id="qr-code"></div>
+        </div>
+      </section>
+
+      <section id="knowledge">
+        <div class="card">
+          <h1>Connaissances</h1>
+          <div class="container-fluid">
+            <div class="row">
+              <aside>
+                Systèmes
+              </aside>
+              <div class="description">
+                <div class="content">
+  Linux (Depuis Mandrake 7, 12 ans de travail exclusivement sur cette plateforme)<br>
+  Android, Windows 7, Windows XP, 9x, NT, Serveur 2003, Netware, BeOS, AmigaOS
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <aside>
+                Langages
+              </aside>
+              <div class="description">
+                <div class="content">
+                  <dl>
+                    <dt>Compilés</dt>
+                    <dd>C, C++, C#, Java</dd>
+
+                    <dt>Interprétés</dt>
+                    <dd>Python, Ruby, Shell, Batch DOS, JScript, VBScript</dd>
+
+                    <dt>Web</dt>
+                    <dd>HTML 5 / CSS 3, Javascript, PHP, ZPT (Zope templates), ASP, JSP</dd>
+
+                    <dt>API Graphiques</dt>
+                    <dd>Win32, SDL, OpenGL</dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <aside>
+                Frameworks
+              </aside>
+              <div class="description">
+                <div class="content">
+                  <dl>
+                    <dt>Python</dt>
+                    <dd>Django, Twisted, Flask, Django, SQLAlchemy, Zope 2 &amp; 3, Plone, Pylons</dd>
+
+                    <dt>Javascript</dt>
+                    <dd>Polymer, ReactJS, Angular 2, Babel, jQuery</dd>
+
+                    <dt>Ruby</dt>
+                    <dd>Ruby on Rails</dd>
+
+                    <dt>PHP</dt>
+                    <dd>Symphony 1 &amp; 2, Smarty</dd>
+
+                    <dt>JAVA</dt>
+                    <dd>Android, NDK, EJB, Struts, Hibernate</dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <aside>
+                SGBD
+              </aside>
+              <div class="description">
+                <div class="content">
+  Postgres, Mongodb, MySQL, SQL Server, Oracle
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <aside>
+                Protocoles &amp; Formats
+              </aside>
+              <div class="description">
+                <div class="content">
+                  <dl>
+                    <dt></dt>
+                    <dd></dd>
+
+                    <dt>Réseau</dt>
+                    <dd>IGMP, Zeroconf, MDNS, DVB-T/C/S, IPTABLES</dd>
+
+                    <dt>Média</dt>
+                    <dd>MPEG PS &amp; TS, MPEG-1/2 Layer III</dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <aside>
+                Logiciels
+              </aside>
+              <div class="description">
+                <div class="content">
+                  <dl>
+                    <dt>IDE</dt>
+                    <dd>Sublimetext, Eclipse, Xcode, Dev-C++, Visual C++, Visual Studio .NET, Dreamweaver</dd>
+
+                    <dt>Serveurs</dt>
+                    <dd>NGINX, Apache, ISC DHCP, Bind, Samba, NFS, IIS 5, Tomcat</dd>
+
+                    <dt>Infographie</dt>
+                    <dd>Photoshop, Gimp, 3DSMAX 4, Zbrush, Paintshop Pro</dd>
+
+                    <dt>Bureautique</dt>
+                    <dd>OpenOffice, Microsoft Office</dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="assets/qrcode.min.js"></script>
+    <script src="assets/cv.js"></script>
+</body></html>
